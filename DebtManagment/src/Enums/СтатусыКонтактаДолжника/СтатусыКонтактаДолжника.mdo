@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad238400-a1a7-4656-b59c-8760ba7c5daf">
+  <producedTypes>
+    <refType typeId="5bfefda7-f411-423e-8e67-0b499d179f3b" valueTypeId="f9d5d8f3-f9d1-4cc7-bd99-4660d43911c2"/>
+    <listType typeId="7f54e65b-1479-4da5-8ca9-4e34de529aee" valueTypeId="4e4503a4-9319-4061-a7f1-05b1ba1a98c9"/>
+    <managerType typeId="3ff0661b-025b-4677-bef1-212405cb26af" valueTypeId="cc41a755-ce80-4c63-aa20-8ed725b0ec62"/>
+  </producedTypes>
+  <name>СтатусыКонтактаДолжника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы контакта должника</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="415d8b8c-7855-45e7-bdfb-dc6e6506d794">
+    <name>Контактный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8048c17b-fce9-42f4-ac13-1e916db41a9a">
+    <name>Неконтактный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неконтактный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

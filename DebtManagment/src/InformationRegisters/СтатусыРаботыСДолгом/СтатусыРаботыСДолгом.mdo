@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d2e7545-d6d9-4fbb-8d29-8354e534c664">
+  <producedTypes>
+    <selectionType typeId="b5bd92da-158e-4880-b07a-1cc337d217f7" valueTypeId="a686377e-6903-4242-96d9-4897425bc59b"/>
+    <listType typeId="17952b25-e597-4d65-bfa5-ea1e34384eac" valueTypeId="4d297572-7034-459a-8472-6fba3b41a68c"/>
+    <managerType typeId="e5947d5a-378f-4ecd-84e9-57a039d08c70" valueTypeId="ead291cb-bf53-429f-bf45-683d552f6f4f"/>
+    <recordSetType typeId="603c1ded-93fa-4949-95ff-3351632996b3" valueTypeId="141dd40c-d611-48e6-8829-dfff659537d7"/>
+    <recordKeyType typeId="ec1a1dec-e81c-4426-b2e5-136687d332e8" valueTypeId="b4880e8f-2e1c-4100-ac37-9fce7795682b"/>
+    <recordType typeId="68ac40da-c267-4eb2-92cb-2c863aa1ab4c" valueTypeId="026d8f5b-092c-4a2f-ae14-49b7544b081c"/>
+    <recordManagerType typeId="ab6dbd0a-a811-4af2-9b51-b65e9107f26a" valueTypeId="a78adeb8-c30e-4231-8884-b3d59072128c"/>
+  </producedTypes>
+  <name>СтатусыРаботыСДолгом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы работы с долгом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cc24bfb1-2a90-45e0-b890-3e5cf517ef39">
+    <name>СтатусРаботыСДолгом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус работы с долгом</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыРаботыСДолгом</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4497e22c-42ff-4af6-9421-1eaeaa3ee8fe">
+    <name>Долг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Долг</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Долги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d575269c-f6af-4afe-b9cc-036da817f97b">
+    <name>Реестр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РеестрДолжников</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

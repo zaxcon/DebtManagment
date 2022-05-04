@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed8933d5-7122-4285-a7d4-746d62136b9b">
+  <name>Операторы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операторы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделНормативноСправочнаяИнформация</picture>
+  </picture>
+  <content>Catalog.Контрагенты</content>
+</mdclass:Subsystem>

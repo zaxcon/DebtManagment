@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="946f305c-fc56-467e-bbe9-2dfcbd0583ab">
+  <producedTypes>
+    <refType typeId="285a6580-746a-4349-88cd-a8e4684efa30" valueTypeId="a16927e9-5242-4dea-91db-c1a656c22f1b"/>
+    <listType typeId="d4309731-d7b2-43bc-a6d8-192038b4cb7b" valueTypeId="7b5c5086-cf32-4f65-a9df-ae8656ee65a7"/>
+    <managerType typeId="cabac50c-dbd1-4340-8405-ca6971c29655" valueTypeId="7efa0d9b-7580-42a9-b82e-ec4b098c6278"/>
+  </producedTypes>
+  <name>ВидыОбразования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды образования</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="397506eb-e055-42f0-97fc-d5ddc6d219ea">
+    <name>Среднее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среднее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c36a7e0c-9850-4307-a854-3726bb3b938c">
+    <name>СреднееТехническое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среднее техническое</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f21532fa-983a-4a88-8748-f6cee95e23c4">
+    <name>Высшее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высшее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

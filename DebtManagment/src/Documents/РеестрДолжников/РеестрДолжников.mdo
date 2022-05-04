@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec1194ab-60a6-49ba-835a-fbcff80924ed">
+  <producedTypes>
+    <objectType typeId="cae5572e-a2ed-46b0-a2c9-b7b8a07a14d0" valueTypeId="ee02f2ae-d1d0-421f-bdf1-a9a5cbe111e3"/>
+    <refType typeId="ae6fb5a8-fcf7-4725-a5a2-dcfbee85647c" valueTypeId="3cae9775-1b16-451a-afb7-4a452448a7cc"/>
+    <selectionType typeId="46938e8e-6e2a-4795-a8a8-c1ab01c92b59" valueTypeId="b15f4809-0629-4419-aeb1-2ffa97b33519"/>
+    <listType typeId="cf39b008-abaf-47dc-9baf-934656e3e7a9" valueTypeId="6ee4aec3-cc44-4437-86f1-9c2b761e2634"/>
+    <managerType typeId="12c8d578-275e-4303-be1b-9edc3631ed8c" valueTypeId="c01b42de-3ae8-4eb8-9d80-e2d666fd7301"/>
+  </producedTypes>
+  <name>РеестрДолжников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр должников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РеестрДолжников.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РеестрДолжников.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.РеестрДолжников.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.РеестрДолжников.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>InformationRegister.СтатусыРаботыСДолгом</registerRecords>
+  <registerRecords>InformationRegister.ДолгиДолжников</registerRecords>
+  <registerRecords>AccumulationRegister.ОстаткиДолгов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0c4a95dd-4155-496a-9fb2-60a2ff427d55">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="baed1c81-7587-47de-8263-5e250b07194d">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="556915c4-d8e5-4a16-8d68-75f5d99a241d">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bf1a4acf-17d6-4014-8514-3c50efd030c1">
+    <name>СтатусРаботыСДолгом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус работы с долгом</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыРаботыСДолгом</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="3d75eebb-0bb9-4193-989a-05f7522da48c">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="58262fa4-c165-4e7d-98d0-79df0cc0e7f9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a74f4141-01bc-4cda-9cb2-0f704a5227b0">
+    <name>ФормаСпискаПолная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка полная</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="84039ce4-bec1-44c9-a99a-a2ed34a096b3">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="39a520ba-7fbc-4145-a71c-5bed7c50c5b2">
+    <producedTypes>
+      <objectType typeId="f760ad09-cb93-4905-a757-7170480f9302" valueTypeId="4c6c5d60-ce8f-443f-a809-9194c2ac94db"/>
+      <rowType typeId="903ed1ee-84ca-4a1c-a8c6-7a93b26b8a80" valueTypeId="1a170101-aee5-4f2e-99ba-7ff61b48a370"/>
+    </producedTypes>
+    <name>Должники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должники</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="227f7bc5-dfab-4cd4-b1f4-98119154ec07">
+      <name>Должник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Должники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="44b14d8a-d6ac-4c1a-9fe5-8790d08179ba">
+      <name>Долг</name>
+      <synonym>
+        <key>ru</key>
+        <value>Долг</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Долги</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0558902b-a738-44e8-98fc-2919a9d3a8f2">
+      <name>СтатусДолжника</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус должника</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СтатусыДолжника</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="38f19af7-a407-429a-ae5a-139b9ae0f8a2">
+      <name>СуммаЗадолженности</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма задолженности</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

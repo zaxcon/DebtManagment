@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0022bac7-b822-4a32-8a6a-2c3d9865eda0">
+  <producedTypes>
+    <refType typeId="196ee256-49fc-4168-9200-a12ffd86d6d4" valueTypeId="7aa8b0d2-25be-4c75-bb73-4ac4373e7d70"/>
+    <listType typeId="7359d23c-0573-4761-b6c8-928dd61b5089" valueTypeId="59aa1a10-84d8-49de-b3c9-77f6e8a84832"/>
+    <managerType typeId="240346a9-e83e-467e-b6b3-3660489e54bd" valueTypeId="a2bab178-1b75-4b89-b9ea-8e85f24a5658"/>
+  </producedTypes>
+  <name>ВидыДолга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды долга</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9b1c958a-09a0-4c3d-b117-c2e277512151">
+    <name>Кредит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредит</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f76bf29-90d2-4995-ae54-3c8c53705447">
+    <name>КредитнаяКарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредитная карта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="213097fe-8334-4a1b-8579-d291948144f6">
+    <name>Займ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Займ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3663173a-62e0-4f18-afd9-5c4c3927f24b">
+    <name>Коммунальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коммунальный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="247bd1df-a15a-4f4e-b259-f646ac576dc6">
+    <name>Корпорат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корпорат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aa4e4cc1-2667-45d1-9e13-d1a3a3465aaf">
+    <name>Индексация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индексация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b531355-bc7d-4b29-914e-c3f170c5b957">
+    <name>Неустойка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неустойка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc7af763-e5f8-465f-b73f-4d019a142e07">
+    <name>ДоначислениеБанковскихПроцентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доначисление банковских %</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

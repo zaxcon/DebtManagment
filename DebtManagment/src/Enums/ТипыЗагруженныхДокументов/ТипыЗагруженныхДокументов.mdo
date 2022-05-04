@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02f72672-ca24-4d6a-8f60-072841e90928">
+  <producedTypes>
+    <refType typeId="a4b95f2b-6db1-4e74-b75d-5ef34552de20" valueTypeId="52e9fa3f-f862-4dbc-8caf-92aea43d0d3c"/>
+    <listType typeId="55b96b55-daf6-4775-9f73-d2088c014144" valueTypeId="1708d20c-94bc-41f9-a120-a307ef1caf5b"/>
+    <managerType typeId="a81eaf59-e525-4d9e-88d5-705e3cb0cd0a" valueTypeId="eae9f49f-7cae-445d-a7b5-3140142df1e2"/>
+  </producedTypes>
+  <name>ТипыЗагруженныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы загруженных документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4102f4c9-5692-4c18-9c63-01a95e7d4b17">
+    <name>Оригинал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оригинал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e323395-9af1-404f-8eb2-341b1b409569">
+    <name>СканВерсия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скан версия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6692fcd6-99f5-4cc1-b251-d748e8bef085">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

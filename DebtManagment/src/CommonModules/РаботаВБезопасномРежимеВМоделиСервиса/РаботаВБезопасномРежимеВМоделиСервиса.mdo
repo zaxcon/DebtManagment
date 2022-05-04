@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="076bbbad-e597-4271-bc57-1bdc4dc3e981">
+  <name>РаботаВБезопасномРежимеВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа в безопасном режиме в модели сервиса</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

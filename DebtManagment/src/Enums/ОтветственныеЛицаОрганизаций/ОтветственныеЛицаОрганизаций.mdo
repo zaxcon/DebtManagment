@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4f22821-60c7-4e8d-b201-3b5eef84b8d9">
+  <producedTypes>
+    <refType typeId="adb16e7c-665b-4c96-8f3e-2c68fd55d8f2" valueTypeId="8225dfbd-d8f4-47ee-82ee-c76388b5dbea"/>
+    <listType typeId="18d2e2b4-7b04-4c19-8228-892cf21fac48" valueTypeId="2c4689c1-a669-4441-a059-99f99eba221d"/>
+    <managerType typeId="dcda9186-7105-4f13-8fc9-4ded086bd005" valueTypeId="8d295bc9-2401-491d-9c37-932472525797"/>
+  </producedTypes>
+  <name>ОтветственныеЛицаОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ответственные лица организаций</value>
+  </synonym>
+  <comment>(Регл)</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3e9c5044-0ff6-4599-866f-c90c415fd79f">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0071939a-8f10-44bd-aaa9-9798676eca6b">
+    <name>ГлавныйБухгалтер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главный бухгалтер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d707e212-ad6c-49aa-8fc2-cd18ea785130">
+    <name>Кассир</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кассир</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04bfc8d8-5496-4366-ba63-fedccdd1e911">
+    <name>Логист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Логист</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

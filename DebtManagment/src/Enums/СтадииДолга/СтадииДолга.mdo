@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2033352-ce50-49c0-a1c9-639261c723b6">
+  <producedTypes>
+    <refType typeId="b46ed888-d3ae-4f87-921d-8ef30368e3c9" valueTypeId="ffed5e64-180d-4691-9695-33a27e8e4ae8"/>
+    <listType typeId="a1682938-deaf-4e94-a5a0-dcb88bc6a70d" valueTypeId="9720a37c-dca8-4c43-839b-606992c86bb9"/>
+    <managerType typeId="b237b935-d967-441d-a6bd-cad3994ed18e" valueTypeId="dd84bc71-2865-4d86-9d9c-94856052eef5"/>
+  </producedTypes>
+  <name>СтадииДолга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стадии долга</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cd4e6eef-4244-4fed-8c75-c2f5a7d3e09c">
+    <name>Высужен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высужен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2ae9e2e-48e6-4eab-aea7-089e58218208">
+    <name>Невысужен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Невысужен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c124b36-4cd0-47b4-a875-042ba9cf5ac1">
+    <name>ЧастичноВысужен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частично высужен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

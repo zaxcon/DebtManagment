@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="30adf965-4f11-4cd7-850a-3cf5b63ececa">
+  <producedTypes>
+    <refType typeId="54e10dea-0d48-4d0d-8b61-39997bfedffc" valueTypeId="a7053148-7b63-447b-ad2a-27ee7c4f31bc"/>
+    <listType typeId="f8c60839-78c7-426d-9c5f-3d8d186949bc" valueTypeId="6a261804-60c7-4d89-afd8-1af625903e5d"/>
+    <managerType typeId="486727e4-53b9-4459-9661-5fb769c27868" valueTypeId="16c7cbc9-f882-4875-98cc-ad1c99b3458c"/>
+  </producedTypes>
+  <name>СтатусыДолжника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы должника</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5de7815b-f9ff-480d-a384-e133a3f38a9f">
+    <name>Заемщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заемщик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="950d6937-58cc-416c-ad2a-c4b35081e48c">
+    <name>Созаемщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Созаемщик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3181c880-ea74-461c-9f60-9efa2ef26b0e">
+    <name>Поручитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поручитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26d18be9-5782-4933-b37d-f221518f9f13">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d15c1d25-d32f-495a-9fc8-e964cb1bb4de">
+    <name>Совладелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Совладелец</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03f9a99e-2699-4b28-b944-3a2fae35a8e3">
+    <name>Наниматель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наниматель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d73c5ff-5268-411e-a256-3375e86727d7">
+    <name>Корпоративный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корпоративный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

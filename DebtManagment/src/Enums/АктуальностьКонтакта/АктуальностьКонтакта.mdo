@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59e173aa-ab40-45e8-9103-538bca5cb51d">
+  <producedTypes>
+    <refType typeId="ec95549d-4633-4d42-946d-9b6fa34880e5" valueTypeId="90f6d872-d26f-4b6f-88a2-4edd8708f6e6"/>
+    <listType typeId="48da4c59-094a-46bb-8980-a570f27f01e7" valueTypeId="708352a5-47aa-4e3c-bc5d-4b9cfddbd462"/>
+    <managerType typeId="89478014-c057-418b-a12b-dc9e00401143" valueTypeId="4bc4d324-06f0-48f1-9e25-a2d2ecdfcad1"/>
+  </producedTypes>
+  <name>АктуальностьКонтакта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актуальность контакта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0750a636-8bce-454a-88aa-d2dd413d7590">
+    <name>Актуальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Актуальный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e03448a6-0e83-4406-9b93-daafcbc23fe2">
+    <name>Неактуальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неактуальный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7863bc00-1600-48f5-b764-e07d0bd0ce9b">
+    <name>Сомнителный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сомнителный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

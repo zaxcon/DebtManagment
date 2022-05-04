@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "settings": {
+    "constructor-function-return-section": {
+      "enabled": false
+    },
+    "form-named-element-name": {
+      "enabled": false,
+      "severity": "TRIVIAL"
+    },
+    "doc-comment-export-function-return-section": {
+      "enabled": false
+    },
+    "doc-comment-field-type-strict": {
+      "enabled": false
+    }
+  }
+}

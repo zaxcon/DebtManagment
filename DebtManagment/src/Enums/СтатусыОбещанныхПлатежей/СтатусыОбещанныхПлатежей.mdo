@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00579c2f-8f4f-45f8-ba55-11347ec62eef">
+  <producedTypes>
+    <refType typeId="443a0a2b-3df4-4241-85eb-ba8ee016251d" valueTypeId="4b2eb7c2-4cb2-4498-85af-ce248c8e2bfe"/>
+    <listType typeId="991e3aed-6637-40d4-ba77-88be468d132f" valueTypeId="72b28437-4f46-465f-b404-f3923c3d0187"/>
+    <managerType typeId="ad9b01d8-5763-4a11-a2de-f34c9d58f22b" valueTypeId="1dc4cf74-ee45-483b-b344-afb228a0cac2"/>
+  </producedTypes>
+  <name>СтатусыОбещанныхПлатежей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы обещанных платежей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6b3a5083-da09-4b15-a0f8-4bf85286b35c">
+    <name>Исполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполнен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e29ec39b-d030-4fa4-8a90-884d8671baf0">
+    <name>ЧастичноИсполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частично исполнен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96523113-82d2-4a6c-b5ef-eb165ff9a379">
+    <name>Неисполнен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неисполнен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2faf638-3800-41ba-8728-730fbea33c88">
+    <name>Просрочен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просрочен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

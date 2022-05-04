@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ae9666f-e68f-4069-8c91-be1a5d3bc910">
+  <producedTypes>
+    <refType typeId="f772efe5-69cf-4acf-a62d-cfb2ad0a4ca3" valueTypeId="a16aba40-10fc-4c46-84a3-25e5137753c1"/>
+    <listType typeId="450cec64-f12d-47e3-a2b8-ec1ad8f0b581" valueTypeId="229e9de6-f893-43f2-a77f-ad605d05d037"/>
+    <managerType typeId="cc2012ba-922b-4932-b1fd-4f217b6a88e0" valueTypeId="79b7f6eb-82db-4db0-b277-9b237f822595"/>
+  </producedTypes>
+  <name>СостоянияДолжника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния должника</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4c8db641-3954-49e7-bceb-49f590734ecc">
+    <name>ПодтверждениеФактаСмерти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение факта смерти</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f70fbcfd-a63f-48af-b11d-c78f0cab7d4c">
+    <name>ИнформацияОСмерти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация о смерти</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d9f0f1f6-360f-4af2-96cb-28d12d1e8d47">
+    <name>ЗапускПроцедурыБанкротства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запуск процедуры банкротства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8540593e-3f0b-42bb-b2b4-b6c2adf193da">
+    <name>СтадияБанкротства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стадия банкротства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8688f70e-3a4d-4de0-949f-589f8a7b14b3">
+    <name>Банкрот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банкрот</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2afe965a-2019-43dd-8d8b-05f39f7a1d87">
+    <name>ПодтверждениеФактаМЛС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение факта МЛС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79e94f5d-3018-4b3e-8e1b-c47a1e8b7fb2">
+    <name>НахождениеВМЛС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нахождение в МЛС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7776900e-39e7-46ae-8d7c-3b4e6aed3c86">
+    <name>Пенсионер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пенсионер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d9c3207-801f-4e5a-ac97-6229f8c31009">
+    <name>Инвалид1Группы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвалид 1 группы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="adede30d-6d6c-4079-9b52-fb37ed146583">
+    <name>НаходитсяНаИзлеченииВСЛУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Находится на излечении в СЛУ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf439b1f-b4f4-4fd9-93c5-36df7fabbb36">
+    <name>ЛишенныйДееспособности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лишенный дееспособности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1cb24ce2-73c4-4bd1-87af-39fc95aa9e4e">
+    <name>СтадияЛиквидации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стадия ликвидации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0a1c711-bdef-49c8-a3a7-f6a7c9f73a05">
+    <name>Ликвидирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ликвидирован</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

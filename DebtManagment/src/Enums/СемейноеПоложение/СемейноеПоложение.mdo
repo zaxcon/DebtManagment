@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3235fe3-6209-4f1a-8b15-0b88782e859f">
+  <producedTypes>
+    <refType typeId="7ac4599e-d856-4434-a8db-8c8969eb5406" valueTypeId="57f4acff-d1ef-488c-a4a5-e348aae3038f"/>
+    <listType typeId="8a744e07-e7fd-4eb4-9a6b-ef3510b9e6b0" valueTypeId="9fdd41b4-06a6-4e0e-b15f-7113c17c9871"/>
+    <managerType typeId="675c447f-5c4a-4c8d-beff-80d3a02264b9" valueTypeId="e37acc62-d063-46e5-9962-0236ce3e7bcc"/>
+  </producedTypes>
+  <name>СемейноеПоложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Семейное положение</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f1d2f913-f255-4a99-a85d-b3f3403a09f9">
+    <name>Холост</name>
+    <synonym>
+      <key>ru</key>
+      <value>Холост</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b605d274-d2e3-4e5e-a292-1b2e15f8b911">
+    <name>ВБраке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В браке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="edb0aff3-0d8d-4d7d-9a8f-e3d6668e03ff">
+    <name>Вдовец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вдовец\Вдова</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c4cb4da-5c2b-4225-81a4-a216cfd12038">
+    <name>ГражданскийБрак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гражданский брак</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

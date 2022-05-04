@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f1764f7-bc61-4415-b1cb-ff116cf51e1b">
+  <producedTypes>
+    <refType typeId="fbc30e10-f1fc-46ef-ac80-35b30425f248" valueTypeId="881c18c0-18b4-41c5-85d0-ab435fe460fe"/>
+    <listType typeId="35ffaeca-280a-4b69-98f2-b6cf923b8487" valueTypeId="69b7cd18-0a31-436a-acef-c54304326baa"/>
+    <managerType typeId="ec4e68ef-81a9-450a-801c-386cac3deb90" valueTypeId="12d86024-d830-428d-b98a-1888810442da"/>
+  </producedTypes>
+  <name>ВидыЗагруженныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды загруженных документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5b6751f5-9a98-4c7d-934a-4e7a026ff7a1">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e7e0ea6-07f0-44ed-b9d7-71666ee9c922">
+    <name>ДополнительноеСоглашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное соглашение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

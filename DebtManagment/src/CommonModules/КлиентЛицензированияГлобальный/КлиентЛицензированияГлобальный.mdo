@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bc6993e-f469-46b5-8057-76823609d9d6">
+  <name>КлиентЛицензированияГлобальный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клиент лицензирования глобальный</value>
+  </synonym>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21bbd8f9-f64f-499b-a0b3-ccc27405dfdd">
+  <name>Корреспонденция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корреспонденция</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделНормативноСправочнаяИнформация</picture>
+  </picture>
+  <content>Catalog.Контрагенты</content>
+</mdclass:Subsystem>

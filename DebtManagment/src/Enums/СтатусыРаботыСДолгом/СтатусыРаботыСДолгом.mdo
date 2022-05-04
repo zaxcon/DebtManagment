@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c3d67ef-e842-44d1-b718-2a48fabd4dfd">
+  <producedTypes>
+    <refType typeId="1598bef6-81de-4edc-90f1-76a62277bee7" valueTypeId="a3c124f4-8098-40e9-a931-d3826daf69e5"/>
+    <listType typeId="a0737bd4-d65b-437b-b575-c0d9b3542a22" valueTypeId="ada20a81-eff7-49a1-995a-2a042dd85e14"/>
+    <managerType typeId="771c8521-1e7b-40c4-b276-9ea5b23e31b9" valueTypeId="040ca98a-f13c-4fa3-998d-f1b0f3e7f820"/>
+  </producedTypes>
+  <name>СтатусыРаботыСДолгом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы работы с долгом</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2ee16feb-6053-4f47-81c5-8a4ec7612ec8">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c851213-4745-417d-a627-0f3bd729d8a2">
+    <name>Приостановлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приостановлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5476d204-464b-465f-8da5-3b9114e5b538">
+    <name>Остановлена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остановлена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6cd4e297-afdc-4d6b-ae8e-8d3c105408ce">
+    <name>Завершена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

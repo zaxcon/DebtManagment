@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9334277b-eb8b-4b64-a9af-5791c94a860f">
+  <producedTypes>
+    <refType typeId="1199707f-6de9-4dc6-8df9-d5f22ec983a9" valueTypeId="90ae0bca-0a0f-4e8a-924c-9aab4abccf5f"/>
+    <listType typeId="1ec646d7-1c23-4e6e-82d2-242a27d29be1" valueTypeId="e15ccdd3-027e-4ff9-956f-842c8e060f8a"/>
+    <managerType typeId="fcc115be-c942-4749-a1d3-53afa8f4a321" valueTypeId="713d45fe-daaa-4bc9-b6cc-43bb206e6af0"/>
+  </producedTypes>
+  <name>ВидыКонтактныхЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды контактных лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="373dedc4-a97f-494e-b2f1-10699f6761d9">
+    <name>КонтактноеЛицоКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактное лицо контрагента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="88796334-4564-46f7-911e-bf6d77fec0a5">
+    <name>ПрочееКонтактноеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее контактное лицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e41c7d30-244d-48ed-b051-de737a419357">
+    <name>ЛичныйКонтакт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личный контакт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

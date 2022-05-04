@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19acb442-5249-4af6-95e8-0eff64502317">
+  <name>БазоваяФункциональностьБИП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая функциональность Интернет-поддержки</value>
+  </synonym>
+  <content>CommonModule.ИнтернетПоддержкаПользователей</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейВызовСервера</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейКлиент</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейКлиентПереопределяемый</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейКлиентСервер</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейПереопределяемый</content>
+  <content>CommonModule.ИнтернетПоддержкаПользователейСлужебныйПовтИсп</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыБИП</content>
+  <content>CommonModule.КлиентЛицензированияГлобальный</content>
+  <content>CommonModule.КлиентЛицензированияКлиент</content>
+  <content>CommonModule.КлиентЛицензирования</content>
+  <content>CommonModule.КлиентЛицензированияВызовСервера</content>
+  <content>CommonModule.ИнтеграцияПодсистемБИП</content>
+  <content>CommonModule.ИнтеграцияПодсистемБИПКлиент</content>
+  <content>CommonModule.ИнтеграцияПодсистемБИПКлиентПовтИсп</content>
+  <content>CommonModule.ИнтеграцияПодсистемБИППовтИсп</content>
+  <parentSubsystem>Subsystem.ИнтернетПоддержкаПользователей</parentSubsystem>
+</mdclass:Subsystem>

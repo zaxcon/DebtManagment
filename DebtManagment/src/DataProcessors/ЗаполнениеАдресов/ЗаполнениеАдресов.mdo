@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b128ea53-dba0-4dc3-81d6-a0f280585c37">
+  <producedTypes>
+    <objectType typeId="16292b1b-77d9-40bb-9e2e-33927c53ce4c" valueTypeId="8d5aac8a-dbc3-41d0-af8e-7c2be40f2495"/>
+    <managerType typeId="b1ed0591-a2e8-4dc3-8477-8b47d64be009" valueTypeId="0fa0b501-acde-446e-aae0-dc8a99400be8"/>
+  </producedTypes>
+  <name>ЗаполнениеАдресов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение адресов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗаполнениеАдресов.Form.Форма</defaultForm>
+  <forms uuid="68c27c43-9753-4d35-85f3-b308ba2370c0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

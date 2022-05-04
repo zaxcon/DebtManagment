@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe2e9eb5-6036-4b32-be32-191d94f1abe7">
+  <name>ОбработкаДолжников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработка должников</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделНормативноСправочнаяИнформация</picture>
+  </picture>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Должники</content>
+  <content>Catalog.Долги</content>
+  <content>InformationRegister.ДолгиДолжников</content>
+  <content>Document.РеестрДолжников</content>
+  <content>06049441-692d-4927-a92c-b821a47e7cd0</content>
+  <content>Document.Платеж</content>
+  <content>Document.ОбещанныйПлатеж</content>
+  <content>Document.СменаСтатусаРаботыСДолгами</content>
+  <content>Catalog.Адреса</content>
+  <subsystems>АдрессныйКлассификатор</subsystems>
+</mdclass:Subsystem>
