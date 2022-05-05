@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b67f056e-0382-45f3-9c4a-aeda7325883b">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b67f056e-0382-45f3-9c4a-aeda7325883b">
   <producedTypes>
     <objectType typeId="8f9b8fe1-23bb-4054-a94a-070d864994a1" valueTypeId="98e93156-8f24-4e47-beba-423946a0b542"/>
     <refType typeId="ccf7bd47-d4ba-47dc-8ebd-f852c13fc43b" valueTypeId="a5f18105-863f-4544-b516-f660f799a7b9"/>
@@ -31,11 +31,47 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Соцсети.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Соцсети.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Соцсети.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="bf671163-1fcb-41b9-b648-0e988a8d4fc3">
+    <name>ВидМедиаРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид медиа ресурса</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидМедиаРесурса</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="18ea4ec3-7992-4d8c-8e5a-c6547b8dbc97">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8f02b533-3930-46c8-bcc3-24f2cd85e467">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="be4d4b2f-86d4-4ebe-85af-b21dac0e6512">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -1518,6 +1518,7 @@
   <enums>Enum.СтатусыОбещанныхПлатежей</enums>
   <enums>Enum.СтатусыКонтактаДолжника</enums>
   <enums>Enum.АктуальностьКонтакта</enums>
+  <enums>Enum.ВидМедиаРесурса</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.БизнесПроцессы</reports>

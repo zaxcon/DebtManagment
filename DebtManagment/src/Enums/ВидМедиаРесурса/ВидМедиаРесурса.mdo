@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c379cbd-932a-4ea6-96c4-aff469310c6a">
+  <producedTypes>
+    <refType typeId="d680b44b-83d7-49ba-97da-01178caf9421" valueTypeId="e7be0cd2-1e75-40d4-b758-aab2f232705b"/>
+    <listType typeId="6e0471ee-05de-4b8c-addb-9325d8631a35" valueTypeId="b71ca428-16c8-4b73-91e6-77e757b3f51c"/>
+    <managerType typeId="57a07eb2-e631-40ae-858b-2714768cbc23" valueTypeId="adee3401-6755-40c8-a44b-01219cc4828c"/>
+  </producedTypes>
+  <name>ВидМедиаРесурса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид медиа ресурса</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="54623430-7c4c-4d4a-b612-c92327839a44">
+    <name>Соцсеть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соцсеть</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca22126f-5ace-46e4-b596-dbecb6c99104">
+    <name>Мессенджер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мессенджер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1bfdfe9f-9544-4045-8fe6-3351ecf0f891">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

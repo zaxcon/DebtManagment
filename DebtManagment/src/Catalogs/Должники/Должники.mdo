@@ -833,6 +833,127 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <tabularSections uuid="c7fb63aa-c125-48cb-af2c-e13499b576b7">
+    <producedTypes>
+      <objectType typeId="c563facf-23f1-4a46-baef-00413d776d7e" valueTypeId="2e5258f1-60b5-4ab3-bbe7-2405b0bdce30"/>
+      <rowType typeId="fab78614-894a-4a5d-857b-f7a867c36220" valueTypeId="58fbe4c8-06f0-451a-8646-40e49fa6d61e"/>
+    </producedTypes>
+    <name>Мессенджеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мессенджеры</value>
+    </synonym>
+    <attributes uuid="e7b89e6b-eae4-44e4-861e-665f6ea6dd07">
+      <name>АктуальностьКонтакта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Актуальность контакта</value>
+      </synonym>
+      <type>
+        <types>EnumRef.АктуальностьКонтакта</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="92b78957-a92f-45c6-b504-3851635ede3a">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>202</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7bd5d3f1-c840-4c55-9576-ea89bfe72052">
+      <name>КонтактноеЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контактное лицо</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9cd45462-fb4b-4385-8ef0-1f341dc41876">
+      <name>НаименованиеСоцСети</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование соц сети</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Соцсети</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7ff8bd34-64e9-4700-8ed2-6806ebfbb163">
+      <name>СсылкаНаКонтакт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка на контакт</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a4ae06ad-ac0b-4ca2-901c-47ee269e648a">
+      <name>СтатусКонтакта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус контакта</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СтатусыКонтактаДолжника</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9f94ce15-9710-4767-9173-b6b52304141a">
+      <name>НомерТелефона</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер телефона</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="2295fe48-f741-46a9-9835-374ec93c0702">
     <name>ФормаЭлемента</name>
     <synonym>

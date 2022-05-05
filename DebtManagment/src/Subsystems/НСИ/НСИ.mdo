@@ -6,7 +6,6 @@
     <value>НСИ</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
-  <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделНормативноСправочнаяИнформация</picture>
   </picture>
@@ -23,4 +22,5 @@
   <content>Catalog.АлгоритмыПроверкиПриведенияДанных</content>
   <content>Catalog.ВидыДокументовФизическихЛиц</content>
   <content>Catalog.Соцсети</content>
+  <content>Enum.ВидМедиаРесурса</content>
 </mdclass:Subsystem>
