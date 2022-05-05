@@ -20,5 +20,6 @@
   <content>Document.ОбещанныйПлатеж</content>
   <content>Document.СменаСтатусаРаботыСДолгами</content>
   <content>Catalog.Адреса</content>
+  <content>Catalog.НастройкиЗагрузкиДанныхИзТабличногоДокумента</content>
   <subsystems>АдрессныйКлассификатор</subsystems>
 </mdclass:Subsystem>
