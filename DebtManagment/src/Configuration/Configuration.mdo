@@ -1519,6 +1519,11 @@
   <enums>Enum.СтатусыКонтактаДолжника</enums>
   <enums>Enum.АктуальностьКонтакта</enums>
   <enums>Enum.ВидМедиаРесурса</enums>
+  <enums>Enum.ВидыНедвижимогоИмуществаДолжника</enums>
+  <enums>Enum.ТипыСобственностиНедвижимогоИмущества</enums>
+  <enums>Enum.ПодвидыНежилогоИмущества</enums>
+  <enums>Enum.ПодвидыДвижимогоИмущества</enums>
+  <enums>Enum.ВидыДвижимогоИмуществаДолжника</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.БизнесПроцессы</reports>
@@ -1579,6 +1584,7 @@
   <dataProcessors>DataProcessor.ОбработкаАдресов</dataProcessors>
   <dataProcessors>DataProcessor.СоздатьАдреса</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкаПодбораПоАдресу</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаДанныхУЗ</dataProcessors>
   <informationRegisters>InformationRegister.АдресныеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>

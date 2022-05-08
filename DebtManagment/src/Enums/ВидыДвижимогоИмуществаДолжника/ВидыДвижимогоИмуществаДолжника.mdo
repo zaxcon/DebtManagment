@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="897300c4-6ac0-4dc0-962d-965bbe82d7c4">
+  <producedTypes>
+    <refType typeId="e998785c-4d95-4def-8532-4d7ba6605199" valueTypeId="6f7560ce-0c67-4c5a-b110-524f27ad2426"/>
+    <listType typeId="74a402b3-cf9f-4f85-966f-c50cb3ab7246" valueTypeId="5232d542-d02f-45ed-a6ed-6a45bb8af534"/>
+    <managerType typeId="93d194a0-c5ab-4fd9-9aa6-45cb194b4dd2" valueTypeId="83459272-aa2b-4eea-b356-4d8eb548caa4"/>
+  </producedTypes>
+  <name>ВидыДвижимогоИмуществаДолжника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды движимого имущества должника</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="196d7e2f-6b96-4ed2-b461-9c3c09609bcf">
+    <name>Автомобиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобиль</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5ed835f-af22-4813-b418-76acbceee175">
+    <name>Мотоцикл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мотоцикл</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba7e1216-cff9-4f61-be9c-487a8c82efb3">
+    <name>Прицеп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прицеп</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e207d8d9-9fab-4ec1-81aa-352a640467e2">
+    <name>Лодка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лодка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a0644b04-481c-496a-b7cb-bc27fb6da7a3">
+    <name>Снегоход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снегоход</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66b09eb1-266a-41b3-9525-64c8d5cdc10a">
+    <name>Трактор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трактор</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

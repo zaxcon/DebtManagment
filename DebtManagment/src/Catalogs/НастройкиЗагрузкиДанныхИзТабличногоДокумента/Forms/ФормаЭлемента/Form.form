@@ -942,6 +942,56 @@
           <textEdit>true</textEdit>
         </extInfo>
       </items>
+      <items xsi:type="form:FormField">
+        <name>ТаблицаРеквизитовГруппаТЧ</name>
+        <id>187</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТаблицаРеквизитов.ГруппаТЧ</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ТаблицаРеквизитовГруппаТЧРасширеннаяПодсказка</name>
+          <id>189</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ТаблицаРеквизитовГруппаТЧКонтекстноеМеню</name>
+          <id>188</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
       <autoCommandBar>
         <name>ТаблицаРеквизитовКоманднаяПанель</name>
         <id>115</id>
@@ -1518,10 +1568,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <handlers>
-    <event>OnClose</event>
-    <name>ПриЗакрытии</name>
-  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -2012,6 +2058,26 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ГруппаТЧ</name>
+      <title>
+        <key>ru</key>
+        <value>Группа ТЧ</value>
+      </title>
+      <id>26</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ДеревоРеквизитов</name>
@@ -2234,6 +2300,26 @@
         <value>Порядок реквизитов</value>
       </title>
       <id>12</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ГруппаТЧ</name>
+      <title>
+        <key>ru</key>
+        <value>Группа ТЧ</value>
+      </title>
+      <id>25</id>
       <valueType>
         <types>Number</types>
         <numberQualifiers>
@@ -2586,6 +2672,26 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ГруппаТЧ</name>
+      <title>
+        <key>ru</key>
+        <value>Группа ТЧ</value>
+      </title>
+      <id>27</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <formCommands>
     <name>ДополнитьОбязательныеРеквизиты</name>
@@ -2613,14 +2719,6 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo">
-    <handlers>
-      <event>BeforeWrite</event>
-      <name>ПередЗаписью</name>
-    </handlers>
-    <handlers>
-      <event>BeforeWriteAtServer</event>
-      <name>ПередЗаписьюНаСервере</name>
-    </handlers>
     <handlers>
       <event>OnWriteAtServer</event>
       <name>ПриЗаписиНаСервере</name>

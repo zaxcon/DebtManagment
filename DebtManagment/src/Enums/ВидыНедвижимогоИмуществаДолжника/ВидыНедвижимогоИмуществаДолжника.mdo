@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ce38dec-6270-4797-84ce-9e9d6c650273">
+  <producedTypes>
+    <refType typeId="aa9624ef-726a-4cbd-b6ca-c8592e075e87" valueTypeId="fbb3dbd0-f1df-4b07-9566-d9153b2bcccf"/>
+    <listType typeId="79077e05-1860-41c2-b814-714a3adc27af" valueTypeId="832327a4-dcba-4c34-ab95-4f1153cf40db"/>
+    <managerType typeId="ee4286e2-3b9c-4ad0-9e45-bbfe0ec3ed17" valueTypeId="4c09df2f-bc47-4ea6-ad40-78acd5f18b68"/>
+  </producedTypes>
+  <name>ВидыНедвижимогоИмуществаДолжника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды недвижимого имущества должника</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="02eb4c9f-eeeb-40ac-98aa-08cdb5a02ebd">
+    <name>Дом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="757302e4-a661-42be-b5cd-df0deaf9c2eb">
+    <name>Квартира</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квартира</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8995db5-037b-4a0c-a957-7fb3567b6e65">
+    <name>ЗемельныйУчасток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Земельный участок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca61e6c5-d9ab-4c9a-a51b-a7d2d1a79ea0">
+    <name>Гараж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гараж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71a8b874-14c1-4e21-b248-013634e22f93">
+    <name>НежилыеПомещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нежилые помещения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

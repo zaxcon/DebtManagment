@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc2c773d-ddeb-4da1-ad81-f3f68aab64d6">
+  <producedTypes>
+    <refType typeId="bc6d73e3-d00d-4c96-98b8-0ba9b335ef46" valueTypeId="4a71bc85-cccb-4973-823c-3a6705d54fd5"/>
+    <listType typeId="84442f59-3792-4173-998a-6b412255664c" valueTypeId="81799827-fd7e-4c82-ab7c-1f9c1caf4236"/>
+    <managerType typeId="9a6915ef-e39e-4f99-a952-96d0fe9d3dac" valueTypeId="317334fa-a912-48a9-b081-d9591b781cbe"/>
+  </producedTypes>
+  <name>ПодвидыДвижимогоИмущества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подвиды движимого имущества</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="abf0ef0f-f273-47f7-8290-9aa5bced1606">
+    <name>Грузовой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузовой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c0d6db14-5a9c-43a9-afb1-c610b222ba4e">
+    <name>Легковой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Легковой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0be1d6a8-0b65-42fb-b862-553dcededd13">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

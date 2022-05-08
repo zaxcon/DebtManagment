@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1efc8d3-9b90-4b12-9ef2-5c940c3285f5">
+  <producedTypes>
+    <refType typeId="005d0cad-12e1-4cef-bf9c-722af5e42f73" valueTypeId="c0a4dcc2-7f7e-458b-a48b-a90e91d69db4"/>
+    <listType typeId="e50ec26c-c1aa-4d74-98f8-d9b10db59f41" valueTypeId="2fdc7c04-f7a6-4df9-931f-b219c65e2bc8"/>
+    <managerType typeId="571882ab-1d2b-4f96-b345-2f56f7321f31" valueTypeId="c5866ac5-386a-4cd0-87f4-4507ecf46e83"/>
+  </producedTypes>
+  <name>ТипыСобственностиНедвижимогоИмущества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы собственности недвижимого имущества</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9a1d76f4-ca4a-4008-b518-ab67e4590a2b">
+    <name>ОбщаяСовместная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая совместная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="25c1dbf9-1417-4d6e-9a0a-4119bfe75f1b">
+    <name>Долевая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Долевая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b4aefd95-22dc-4da7-a5f6-5ba30f7ca61d">
+    <name>ОдинСобственник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Один собственник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c07d75d-3bde-4e56-b0b6-41217438740c">
+    <name>СоцНайм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соц найм</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b38c8026-2481-4613-9ea5-edd0456e90e9">
+    <name>Аренда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аренда</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

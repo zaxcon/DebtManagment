@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68650390-f142-4091-bd42-4ad420d5d7b5">
+  <producedTypes>
+    <refType typeId="47da904c-ee57-4c71-9c08-8fdd92b2e8e0" valueTypeId="c76c0d66-d8ca-4fd0-8fcd-b6f83a89a4c2"/>
+    <listType typeId="3211c6a0-9159-4f05-95e7-aa9b28ab2d33" valueTypeId="ea99c1f3-855b-46ff-9c43-9c3e10549f43"/>
+    <managerType typeId="9dce83d1-37df-4d6b-bd70-f8a646530439" valueTypeId="94867446-6f4a-4cf6-b0bc-efe27f4e4b08"/>
+  </producedTypes>
+  <name>ПодвидыНежилогоИмущества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подвиды нежилого имущества</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2ac96962-4f1d-4239-876c-28de8b234cfe">
+    <name>Машиноместо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Машиноместо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67fe5a13-4177-4832-abde-4e73dcc36101">
+    <name>Кладовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кладовая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="891a86e7-7e73-4eb7-995a-e9831db1df37">
+    <name>Офис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Офис</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0db87d82-2506-4a0c-a9fe-52751b67a5d7">
+    <name>Аппартаменты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аппартаменты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7fb3faa5-5c29-4208-b330-2015a411855f">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
