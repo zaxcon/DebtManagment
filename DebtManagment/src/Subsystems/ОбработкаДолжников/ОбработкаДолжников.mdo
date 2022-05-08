@@ -21,5 +21,6 @@
   <content>Document.СменаСтатусаРаботыСДолгами</content>
   <content>Catalog.Адреса</content>
   <content>Catalog.НастройкиЗагрузкиДанныхИзТабличногоДокумента</content>
+  <content>DataProcessor.ЗагрузкаДанныхУЗ</content>
   <subsystems>АдрессныйКлассификатор</subsystems>
 </mdclass:Subsystem>

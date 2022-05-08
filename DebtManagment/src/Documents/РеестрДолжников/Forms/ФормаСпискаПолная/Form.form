@@ -874,7 +874,7 @@
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>Загрузить</name>
+        <name>ЗагрузитьРеестр</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
