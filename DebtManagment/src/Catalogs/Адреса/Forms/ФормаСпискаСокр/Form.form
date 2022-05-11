@@ -414,7 +414,7 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <representation>Tree</representation>
+    <representation>HierarchicalList</representation>
     <changeRowSet>true</changeRowSet>
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>

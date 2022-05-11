@@ -2991,6 +2991,10 @@
             <event>OnActivateRow</event>
             <name>СписокДолгиПриАктивизацииСтроки</name>
           </handlers>
+          <handlers>
+            <event>Selection</event>
+            <name>СписокДолгиВыбор</name>
+          </handlers>
           <searchStringAddition>
             <visible>true</visible>
             <enabled>true</enabled>
