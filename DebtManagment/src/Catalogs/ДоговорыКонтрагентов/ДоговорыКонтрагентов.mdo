@@ -316,6 +316,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="9b3f81d3-31e2-489e-a1ea-79866b06e1e1">
+    <name>СрокПролонгации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок пролонгации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="f83f3688-0a48-407c-9e88-0c95ff3f9c45">
     <name>ФормаЭлементаБСП</name>
     <synonym>

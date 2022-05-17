@@ -1524,6 +1524,7 @@
   <enums>Enum.ПодвидыНежилогоИмущества</enums>
   <enums>Enum.ПодвидыДвижимогоИмущества</enums>
   <enums>Enum.ВидыДвижимогоИмуществаДолжника</enums>
+  <enums>Enum.ТипыДолгов</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.БизнесПроцессы</reports>

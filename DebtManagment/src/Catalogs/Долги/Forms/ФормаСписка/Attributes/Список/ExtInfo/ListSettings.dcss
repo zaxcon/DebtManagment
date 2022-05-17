@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
 	<filter>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">ВидДолга</left>
+			<comparisonType>Equal</comparisonType>
+			<userSettingID>e146491b-0e31-4c30-8719-1c34409393dd</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">ДоговорКонтрагента</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:nil="true"/>
+			<userSettingID>e3edb054-0347-42bb-8be5-9219d2e785db</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Контрагент</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:nil="true"/>
+			<userSettingID>2c32dd98-8ea2-4d21-990e-2f69da52470e</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">НомерДоговораДолжника</left>
+			<comparisonType>Contains</comparisonType>
+			<right xsi:type="xs:string"/>
+			<userSettingID>3d2008df-5dfd-4bf8-8ece-b9650f4003bd</userSettingID>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Реестр</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:nil="true"/>
+			<userSettingID>123e31d7-ac95-4ba9-a362-9f306acc1abf</userSettingID>
+		</item>
 		<viewMode>Normal</viewMode>
 		<userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</userSettingID>
 	</filter>

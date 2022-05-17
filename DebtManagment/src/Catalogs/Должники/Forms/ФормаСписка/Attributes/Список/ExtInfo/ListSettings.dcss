@@ -1,6 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Settings xmlns="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core">
 	<filter>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">ЮрФизЛицо</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:nil="true"/>
+			<userSettingID>10be7f9a-4ecd-471f-a131-93a736e50c6a</userSettingID>
+			<userSettingPresentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип должника</v8:content>
+				</v8:item>
+			</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">Наименование</left>
+			<comparisonType>Contains</comparisonType>
+			<right xsi:type="xs:string"/>
+			<userSettingID>046b18ca-e41d-4db0-b9c8-ad26f20a5bf0</userSettingID>
+			<userSettingPresentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ФИО</v8:content>
+				</v8:item>
+			</userSettingPresentation>
+		</item>
+		<item xsi:type="FilterItemComparison">
+			<use>false</use>
+			<left xsi:type="dcscor:Field">СтатусДолжника</left>
+			<comparisonType>Equal</comparisonType>
+			<right xsi:nil="true"/>
+			<userSettingID>893a7ff4-6e5e-4d46-8b0d-d5cfe4df3c57</userSettingID>
+		</item>
 		<viewMode>Normal</viewMode>
 		<userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</userSettingID>
 	</filter>

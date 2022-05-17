@@ -191,6 +191,56 @@
       </choiceParameterLinks>
     </extInfo>
   </items>
+  <items xsi:type="form:FormField">
+    <name>ТипДолга</name>
+    <id>193</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ТипДолга</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ТипДолгаРасширеннаяПодсказка</name>
+      <id>195</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ТипДолгаКонтекстноеМеню</name>
+      <id>194</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
   <items xsi:type="form:FormGroup">
     <name>ГруппаСтраницы</name>
     <id>4</id>
@@ -2755,6 +2805,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <fillChecking>ShowError</fillChecking>
   </attributes>
   <attributes>
     <name>ДоговорКонтрагента</name>
@@ -2772,6 +2823,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <fillChecking>ShowError</fillChecking>
   </attributes>
   <attributes>
     <name>ТаблицаОшибки</name>
@@ -3557,6 +3609,23 @@
         <common>true</common>
       </edit>
     </columns>
+  </attributes>
+  <attributes>
+    <name>ТипДолга</name>
+    <title>
+      <key>ru</key>
+      <value>Тип долга</value>
+    </title>
+    <id>38</id>
+    <valueType>
+      <types>EnumRef.ТипыДолгов</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>Загрузить</name>

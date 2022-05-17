@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c35da5e7-fe29-4b83-bc6e-aac68605b2e2">
+  <producedTypes>
+    <refType typeId="8c8593d7-a762-4aca-b231-98d8b2ec6872" valueTypeId="023ec096-5993-4ad9-ae4f-af61ad7ca137"/>
+    <listType typeId="23ccc81f-c673-4acf-9e94-b0e060a33c8a" valueTypeId="fe168342-68e4-48b3-a3ae-9e421a56ed54"/>
+    <managerType typeId="9ef781bd-9608-40ad-8f8a-b672f4da1590" valueTypeId="84adc378-4097-47cc-83e1-33b4f87354e1"/>
+  </producedTypes>
+  <name>ТипыДолгов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы долгов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ae8f3eb9-1690-4384-925a-b6b72bcdd786">
+    <name>ЖКХ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖКХ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0bb51700-fd11-4287-9df0-2a156d53a490">
+    <name>БанкиМФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банки\МФО</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

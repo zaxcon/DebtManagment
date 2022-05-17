@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c605887-f1eb-4639-a016-7cbd93233440">
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a7cb374-9b1c-488c-a713-ee66dd28108e">
   <producedTypes>
-    <objectType typeId="e7415508-32c1-4632-ace1-a1149ec39cc6" valueTypeId="7356bbcb-fe23-4911-a6b6-a021ac01f12f"/>
-    <managerType typeId="62c06067-8e13-42de-9f75-7941aaab238a" valueTypeId="ffee6b11-eb9a-4a67-bdcd-230731c9e0ac"/>
+    <objectType typeId="5c652f83-30fe-4e18-ab3b-a6aa6563f00b" valueTypeId="774303d3-bbe6-499d-ba80-eee9e5161c47"/>
+    <managerType typeId="324b705d-9962-42f3-b4df-1a67c4b1d2ce" valueTypeId="2780c513-3e7c-457e-a514-5be96d3b4f64"/>
   </producedTypes>
   <name>ЗагрузкаДанныхУЗ</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ЗагрузкаДанныхУЗ.Form.Форма</defaultForm>
-  <forms uuid="73db7fa6-b6fc-4906-9374-be3a3d147e4a">
+  <forms uuid="e1908573-224b-47d2-8795-687fac3328c6">
     <name>Форма</name>
     <synonym>
       <key>ru</key>

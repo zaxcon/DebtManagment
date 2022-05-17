@@ -48,7 +48,6 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
       <value>3c458dea-5008-4c82-9b60-815d199300e7.626ef841-9555-460d-a22e-a2183931b318</value>
     </fillValue>
@@ -125,7 +124,6 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:ReferenceValue">
       <value>1196b917-6a38-4794-af57-bf214317000c.5545798f-72dc-4630-a5ba-88039f4bfe3c</value>
@@ -372,6 +370,24 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ddeda521-5b03-40f0-9b4e-e83a6f894b4d">
+    <name>idДолжник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Id должник</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
