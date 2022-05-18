@@ -3609,6 +3609,42 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>СтатусВалидацииОписание</name>
+      <title>
+        <key>ru</key>
+        <value>Статус валидации</value>
+      </title>
+      <id>39</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>КачествоРаспознаванияОписание</name>
+      <title>
+        <key>ru</key>
+        <value>Качество распознавания</value>
+      </title>
+      <id>40</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ТипДолга</name>
