@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5d87bd6-07cd-4e8d-991e-c52398b207c3">
+  <name>Развитие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Развитие</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.Развитие</content>
+  <parentSubsystem>Subsystem.Контрагенты</parentSubsystem>
+</mdclass:Subsystem>

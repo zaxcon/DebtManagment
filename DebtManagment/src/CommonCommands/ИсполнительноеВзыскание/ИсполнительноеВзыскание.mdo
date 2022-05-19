@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3efff93a-5e1f-43d2-ae2c-4cff9ec70f17">
+  <name>ИсполнительноеВзыскание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исполнительное взыскание</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

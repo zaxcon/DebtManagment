@@ -10,5 +10,7 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделНормативноСправочнаяИнформация</picture>
   </picture>
-  <content>Catalog.Контрагенты</content>
+  <content>CommonCommand.Отчеты</content>
+  <content>CommonCommand.Аналитика</content>
+  <content>CommonCommand.КонтрольСотрудников</content>
 </mdclass:Subsystem>

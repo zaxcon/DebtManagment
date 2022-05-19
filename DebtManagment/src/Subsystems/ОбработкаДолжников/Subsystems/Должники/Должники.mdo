@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00ec01d2-a21a-4aff-b0e4-01d90df28e27">
+  <name>Должники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Должники</content>
+  <parentSubsystem>Subsystem.ОбработкаДолжников</parentSubsystem>
+</mdclass:Subsystem>

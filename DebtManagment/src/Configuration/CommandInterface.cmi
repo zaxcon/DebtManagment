@@ -2,14 +2,14 @@
 <cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
   <subsystemsOrder>
     <subsystems>Subsystem.Контрагенты</subsystems>
-    <subsystems>Subsystem.Договоры</subsystems>
+    <subsystems>Subsystem.Контрагенты.Subsystem.Договоры</subsystems>
     <subsystems>Subsystem.ОбработкаДолжников</subsystems>
-    <subsystems>Subsystem.ДосудебноеВзыскание</subsystems>
-    <subsystems>Subsystem.СудебноеПроизводство</subsystems>
-    <subsystems>Subsystem.ИсполнительноеПроизводство</subsystems>
+    <subsystems>Subsystem.ОбработкаДолжников.Subsystem.ДосудебноеВзыскание</subsystems>
+    <subsystems>Subsystem.ОбработкаДолжников.Subsystem.СудебноеПроизводство</subsystems>
+    <subsystems>Subsystem.ОбработкаДолжников.Subsystem.ИсполнительноеПроизводство</subsystems>
     <subsystems>Subsystem.Корреспонденция</subsystems>
     <subsystems>Subsystem.Операторы</subsystems>
-    <subsystems>Subsystem.ОчноеВзыскание</subsystems>
+    <subsystems>Subsystem.ОбработкаДолжников.Subsystem.ОчноеВзыскание</subsystems>
     <subsystems>Subsystem.Отчеты</subsystems>
     <subsystems>Subsystem.НСИ</subsystems>
     <subsystems>Subsystem.Администрирование</subsystems>

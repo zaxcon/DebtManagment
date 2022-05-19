@@ -10,5 +10,4 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделНормативноСправочнаяИнформация</picture>
   </picture>
-  <content>Catalog.Контрагенты</content>
 </mdclass:Subsystem>

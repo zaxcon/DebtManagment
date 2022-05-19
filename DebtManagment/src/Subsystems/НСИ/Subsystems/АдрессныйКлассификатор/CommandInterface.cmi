@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.ЗаполнениеАдресов.StandardCommand.Open</commands>
+      <commands>DataProcessor.ОбработкаАдресов.StandardCommand.Open</commands>
+      <commands>DataProcessor.СоздатьАдреса.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

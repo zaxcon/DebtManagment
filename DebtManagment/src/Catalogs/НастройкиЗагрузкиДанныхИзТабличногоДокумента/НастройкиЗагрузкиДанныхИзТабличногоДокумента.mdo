@@ -156,4 +156,13 @@
       <value>Макет</value>
     </synonym>
   </templates>
+  <commands uuid="f409fede-6bcc-4576-87e6-742c24a67355">
+    <name>НастройкиЗагрузкиДанныхИзТабличногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки данных из табличного документа</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>

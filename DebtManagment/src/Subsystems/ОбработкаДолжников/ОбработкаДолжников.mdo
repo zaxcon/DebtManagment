@@ -10,17 +10,13 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделНормативноСправочнаяИнформация</picture>
   </picture>
-  <content>Catalog.Контрагенты</content>
-  <content>Catalog.Должники</content>
-  <content>Catalog.Долги</content>
-  <content>InformationRegister.ДолгиДолжников</content>
-  <content>Document.РеестрДолжников</content>
   <content>06049441-692d-4927-a92c-b821a47e7cd0</content>
-  <content>Document.Платеж</content>
-  <content>Document.ОбещанныйПлатеж</content>
-  <content>Document.СменаСтатусаРаботыСДолгами</content>
-  <content>Catalog.Адреса</content>
-  <content>Catalog.НастройкиЗагрузкиДанныхИзТабличногоДокумента</content>
   <content>DataProcessor.ЗагрузкаДанныхУЗ</content>
-  <subsystems>АдрессныйКлассификатор</subsystems>
+  <content>Catalog.НастройкиЗагрузкиДанныхИзТабличногоДокумента</content>
+  <subsystems>Должники</subsystems>
+  <subsystems>Долги</subsystems>
+  <subsystems>ДосудебноеВзыскание</subsystems>
+  <subsystems>СудебноеПроизводство</subsystems>
+  <subsystems>ИсполнительноеПроизводство</subsystems>
+  <subsystems>ОчноеВзыскание</subsystems>
 </mdclass:Subsystem>

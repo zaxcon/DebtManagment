@@ -14,7 +14,6 @@
   <content>InformationRegister.ОтветственныеЛицаОрганизаций</content>
   <content>Catalog.ФизическиеЛица</content>
   <content>InformationRegister.ФИОФизЛиц</content>
-  <content>Catalog.Контрагенты</content>
   <content>Catalog.БанковскиеСчета</content>
   <content>Catalog.ДоговорыКонтрагентов</content>
   <content>Catalog.КонтрагентыПрисоединенныеФайлы</content>
@@ -23,4 +22,7 @@
   <content>Catalog.ВидыДокументовФизическихЛиц</content>
   <content>Catalog.Соцсети</content>
   <content>Enum.ВидМедиаРесурса</content>
+  <content>Catalog.Должники</content>
+  <content>Catalog.Долги</content>
+  <subsystems>АдрессныйКлассификатор</subsystems>
 </mdclass:Subsystem>

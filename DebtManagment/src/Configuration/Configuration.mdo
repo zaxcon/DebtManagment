@@ -48,14 +48,9 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.НСИ</subsystems>
   <subsystems>Subsystem.Контрагенты</subsystems>
-  <subsystems>Subsystem.Договоры</subsystems>
   <subsystems>Subsystem.ОбработкаДолжников</subsystems>
-  <subsystems>Subsystem.ДосудебноеВзыскание</subsystems>
-  <subsystems>Subsystem.СудебноеПроизводство</subsystems>
-  <subsystems>Subsystem.ИсполнительноеПроизводство</subsystems>
   <subsystems>Subsystem.Корреспонденция</subsystems>
   <subsystems>Subsystem.Операторы</subsystems>
-  <subsystems>Subsystem.ОчноеВзыскание</subsystems>
   <subsystems>Subsystem.Отчеты</subsystems>
   <subsystems>Subsystem.ИнтернетПоддержкаПользователей</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
@@ -1222,6 +1217,14 @@
   <commonCommands>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</commonCommands>
   <commonCommands>CommonCommand.ФайлыВТоме</commonCommands>
   <commonCommands>CommonCommand.ЮридическиеДокументы</commonCommands>
+  <commonCommands>CommonCommand.Развитие</commonCommands>
+  <commonCommands>CommonCommand.ДосудебноеВзыскание</commonCommands>
+  <commonCommands>CommonCommand.СудебноеВзыскание</commonCommands>
+  <commonCommands>CommonCommand.ИсполнительноеВзыскание</commonCommands>
+  <commonCommands>CommonCommand.ОчноеВзыскание</commonCommands>
+  <commonCommands>CommonCommand.КонтрольСотрудников</commonCommands>
+  <commonCommands>CommonCommand.Аналитика</commonCommands>
+  <commonCommands>CommonCommand.Отчеты</commonCommands>
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.Печать</commandGroups>

@@ -99,6 +99,56 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>Долги</name>
+      <id>34</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Долги</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ДолгиРасширеннаяПодсказка</name>
+        <id>36</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДолгиКонтекстноеМеню</name>
+        <id>35</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>Код</name>
       <id>19</id>
       <visible>true</visible>
@@ -502,6 +552,10 @@
       <segments>Список.DefaultPicture</segments>
     </rowPictureDataPath>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
+      <handlers>
+        <event>OnGetDataAtServer</event>
+        <name>СписокПриПолученииДанныхНаСервере</name>
+      </handlers>
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
         <startDate>0001-01-01T00:00:00</startDate>
@@ -545,9 +599,51 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ 
+       Должники.Ссылка, 
+       Должники.ПометкаУдаления, 
+       Должники.Родитель, 
+       Должники.ЭтоГруппа, 
+       Должники.Код, 
+       Должники.Наименование, 
+       Должники.ЮрФизЛицо, 
+       Должники.СтатусРаботыСДолгом, 
+       Должники.СтатусДолжника, 
+       Должники.ДатаРождения, 
+       Должники.Пол, 
+       Должники.ИНН, 
+       Должники.СемейноеПоложение, 
+       Должники.Образование, 
+       Должники.Комментарий, 
+       Должники.СостояниеДолжника, 
+       Должники.ОГРНИП, 
+       Должники.КПП, 
+       Должники.ОГРН, 
+       Должники.ОКПО, 
+       Должники.ОКАТО, 
+       Должники.ОКВЭД, 
+       Должники.ОсновнойРасчетныйСчет, 
+       Должники.ФИОГенеральногоДиректора, 
+       Должники.idДолжник, 
+       Должники.КонтактнаяИнформация.*, 
+       Должники.ДополнительныеРеквизиты.*, 
+       Должники.Соцсети.*, 
+       Должники.Мессенджеры.*, 
+       Должники.Недвижимость.*, 
+       Должники.Транспорт.*, 
+       Должники.МестаРаботы.*, 
+       Должники.Предопределенный, 
+       Должники.ИмяПредопределенныхДанных,
+       ВЫРАЗИТЬ(&quot;&quot; как Строка(150)) как Долги
+       
+ ИЗ 
+       Справочник.Должники
+ КАК 
+       Должники</queryText>
       <mainTable>Catalog.Должники</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>

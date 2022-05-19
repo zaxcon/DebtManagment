@@ -10,6 +10,7 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.РазделНормативноСправочнаяИнформация</picture>
   </picture>
-  <content>Catalog.ДоговорыКонтрагентов</content>
-  <content>Catalog.Контрагенты</content>
+  <subsystems>Контрагенты</subsystems>
+  <subsystems>Договоры</subsystems>
+  <subsystems>Развитие</subsystems>
 </mdclass:Subsystem>
