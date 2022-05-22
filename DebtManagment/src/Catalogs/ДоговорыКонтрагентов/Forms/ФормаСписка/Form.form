@@ -231,7 +231,6 @@
       </contextMenu>
       <type>LabelField</type>
       <editMode>Enter</editMode>
-      <cellHyperlink>true</cellHyperlink>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -242,10 +241,6 @@
         </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <hyperlink>true</hyperlink>
-        <textColor xsi:type="core:ColorRef">
-          <color>Style.ГиперссылкаЦвет</color>
-        </textColor>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -567,7 +562,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <format>
           <key>ru</key>
-          <value>ЧН=</value>
+          <value>ЧЦ=5; ЧН=-</value>
         </format>
       </extInfo>
     </items>
@@ -617,7 +612,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <format>
           <key>ru</key>
-          <value>ЧДЦ=2; ЧН=; ЧФ='Ч руб'</value>
+          <value>ЧДЦ=2; ЧН=-; ЧФ='Ч руб'</value>
         </format>
       </extInfo>
     </items>
@@ -795,6 +790,10 @@
       <segments>Список.DefaultPicture</segments>
     </rowPictureDataPath>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
+      <handlers>
+        <event>OnGetDataAtServer</event>
+        <name>СписокПриПолученииДанныхНаСервере</name>
+      </handlers>
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
         <startDate>0001-01-01T00:00:00</startDate>
@@ -855,10 +854,10 @@
 	СправочникДоговорыКонтрагентов.НаличиеПролонгации,
 	СправочникДоговорыКонтрагентов.Предопределенный,
 	СправочникДоговорыКонтрагентов.ИмяПредопределенныхДанных,
-	&quot;Да&quot; как НаличиеСканВерсии,
-	&quot;Нет&quot; как НаличиеОригинала,
-	&quot;Нет&quot; как НаличиеДС,
-	&quot;Нет&quot; как РеестрЗагружен,
+	ВЫразить(&quot;&quot; как Строка(3)) как НаличиеСканВерсии,
+	ВЫразить(&quot;&quot; как Строка(3)) как НаличиеОригинала,
+	ВЫразить(&quot;&quot; как Строка(3)) как НаличиеДС,
+	ВЫразить(&quot;&quot; как Строка(3)) как РеестрЗагружен,
 	0 как КоличествоПозиций,
 	0 как ОбщаяСуммаЗадолженности
 
